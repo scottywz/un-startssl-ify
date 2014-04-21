@@ -50,6 +50,12 @@ graphical certificate manager (you can access the desktop's one via
 well as for users or organizations with multiple Firefox installations who
 would like to distrust StartCom with the least effort possible.
 
+**Note:**  After installing this add-on, some StartCom certificate authorities
+may still appear in the certificate manager.  These would be built-in
+certificates that cannot be removed, so instead they are distrusted.  You can
+verify this by clicking on each certificate and then clicking "Edit Trust".
+None of the three checkboxes should be checked.
+
 Resources
 ---------
 
