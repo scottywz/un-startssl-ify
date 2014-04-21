@@ -61,6 +61,7 @@ Resources
 ---------
 
 * [Heartbleed.com](http://www.heartbleed.com/)
+* [Test your server for Heartbleed (does not check for StartSSL certificates)](https://filippo.io/Heartbleed/)
 * [Distrusting StartSSL](https://raim.codingfarm.de/blog/2014/04/12/distrusting-startssl/)
 * [StartCom's Heartbleed statement (via the WayBack Machine for obvious reasons)](https://goo.gl/T09jnC)
 * [StartCom Forums - "Heartbleed vulnerability - is StartCom affected?" (also WayBack Machine)](https://goo.gl/TQClPk)
