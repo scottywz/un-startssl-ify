@@ -62,8 +62,8 @@ Resources
 
 * [Heartbleed.com](http://www.heartbleed.com/)
 * [Distrusting StartSSL](https://raim.codingfarm.de/blog/2014/04/12/distrusting-startssl/)
-* [StartCom's Heartbleed statement (via the WayBack Machine for obvious reasons)](https://web.archive.org/web/20140413143129/https://www.startssl.com/?app=43)
-* [StartCom Forums - "Heartbleed vulnerability - is StartCom affected?" (also WayBack Machine)](https://web.archive.org/web/20140421064654/https://forum.startcom.org/viewtopic.php?p=8074&sid=9ff80cab27595d3558208b0580c1583a#p8074)
+* [StartCom's Heartbleed statement (via the WayBack Machine for obvious reasons)](https://goo.gl/T09jnC)<!-- <https://web.archive.org/web/20140413143129/https://www.startssl.com/?app=43> -->
+* [StartCom Forums - "Heartbleed vulnerability - is StartCom affected?" (also WayBack Machine)](https://goo.gl/TQClPk)<!-- <https://web.archive.org/web/20140421064654/https://forum.startcom.org/viewtopic.php?p=8074&sid=9ff80cab27595d3558208b0580c1583a#p8074> -->
 * [Mozilla bug #994033 - Most StartSSL certs will stay compromised (RESOLVED INVALID)](https://bugzilla.mozilla.org/show_bug.cgi?id=994033)
 * [Debian bug #744027 - Please remove StartCom Certification Authority root certificate (WONTFIX)](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=744027)
 * [Here's why StartSSL revoke fees won't matter and SSL certs are funky](http://www.ahtik.com/blog/startssl-revocation-fees-will-not-matter-and-ssl-certs-are-funky_u1g8E/)
