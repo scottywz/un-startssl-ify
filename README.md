@@ -5,7 +5,8 @@ Removes/distrusts StartCom's certificate authorities in Firefox, desktop and
 mobile.
 
 Copyright (C) 2014 Scott Zeid.  Released under the X11 License.  
-http://code.s.zeid.me/un-startssl-ify
+<https://addons.mozilla.org/en-US/firefox/addon/un-startssl-ify/>  
+<http://code.s.zeid.me/un-startssl-ify>
 
  
 
