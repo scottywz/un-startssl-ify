@@ -66,8 +66,11 @@ couple of notes:
  * `letsencrypt certonly --webroot -w <web-root>` will let you get certificates
    without having to shut down your server temporarily.  Just make sure that
    paths that start with `/.well-known/acme-challenge/` get served from the
-   `web-root` that you specify in the command.  The `certonly` part will also
-   cause it to *only* get the certificate, so that you can install it manually.
+   `web-root` that you specify in the command (the client will create the
+   `.well-known` subdirectory inside `web-root`).  You can also have your server
+   serve *just* the ACME challenge directory from a separate web root.  The
+   `certonly` part will also cause it to *only* get the certificate, so that you
+   can install it manually.
  * If you don't like giving the client root access, there are [plenty of other
    clients—and libraries for many programming languages—available](https://community.letsencrypt.org/t/list-of-client-implementations/2103).  Knock yourself out.
  * If you can't or don't want to generate certificates on the server itself,
