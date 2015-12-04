@@ -4,7 +4,7 @@
   "id": "jid1-LmWyqIiZsQfskA",
   "description": "Removes/distrusts StartCom's certificate authorities",
   "author": "Scott Zeid",
-  "homepage": "http://code.s.zeid.me/un-startssl-ify",
+  "homepage": "https://code.s.zeid.me/un-startssl-ify",
   "license": "X11",
   "version": "0.1",
   "icon": "data/icon.png",

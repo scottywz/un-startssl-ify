@@ -4,9 +4,9 @@ Un-StartSSL-ify
 Removes/distrusts StartCom's certificate authorities in Firefox, desktop and
 mobile.
 
-Copyright (C) 2014 Scott Zeid.  Released under the X11 License.  
+Copyright (C) 2014-2015 Scott Zeid.  Released under the X11 License.  
 <https://addons.mozilla.org/en-US/firefox/addon/un-startssl-ify/>  
-<http://code.s.zeid.me/un-startssl-ify>
+<https://code.s.zeid.me/un-startssl-ify>
 
  
 
@@ -57,9 +57,31 @@ certificates that cannot be removed, so instead they are distrusted.  You can
 verify this by clicking on each certificate and then clicking "Edit Trust".
 None of the three checkboxes should be checked.
 
+**Note to server operators who (still) use StartCom:**
+Now that [Let's Encrypt](https://letsencrypt.org/) is open to the public, there
+is absolutely *no excuse* to continue using StartCom.  Destroy your old private
+keys and switch over **now**.  If you're worried about how the client works, a
+couple of notes:
+
+ * `letsencrypt certonly --webroot -w <web-root>` will let you get certificates
+   without having to shut down your server temporarily.  Just make sure that
+   paths that start with `/.well-known/acme-challenge/` get served from the
+   `web-root` that you specify in the command.  The `certonly` part will also
+   cause it to *only* get the certificate, so that you can install it manually.
+ * If you don't like giving the client root access, there are [plenty of other
+   clients—and libraries for many programming languages—available](https://community.letsencrypt.org/t/list-of-client-implementations/2103).  Knock yourself out.
+ * If you can't or don't want to generate certificates on the server itself,
+   (at least) the official client has a manual mode that lets you do it from
+   another machine.
+ * If you're worried about 90-day lifetimes, they're working on making automated
+   renewals easier.  In the meantime, set up a cron job.
+
 Resources
 ---------
 
+* [**Let's Encrypt**](https://letsencrypt.org/)
+* [**Let's Encrypt**](https://letsencrypt.org/)
+* [**Let's Encrypt**](https://letsencrypt.org/)
 * [Heartbleed.com](http://www.heartbleed.com/)
 * [Test your server for Heartbleed (does not check for StartSSL certificates)](https://filippo.io/Heartbleed/)
 * [Distrusting StartSSL](https://raim.codingfarm.de/blog/2014/04/12/distrusting-startssl/)
