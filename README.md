@@ -94,6 +94,7 @@ Resources
 * [Heartbleed.com](http://www.heartbleed.com/)
 * [Test your server for Heartbleed (does not check for StartSSL certificates)](https://filippo.io/Heartbleed/)
 * [Distrusting StartSSL](https://raim.codingfarm.de/blog/2014/04/12/distrusting-startssl/)
+* [Techdirt - "Shameful Security: StartCom Charges People To Revoke SSL Certs Vulnerable To Heartbleed"](https://www.techdirt.com/articles/20140409/11442426859/shameful-security-startcom-charges-people-to-revoke-ssl-certs-vulnerable-to-heartbleed.shtml)
 * [StartCom's Heartbleed statement (via the WayBack Machine for obvious reasons)](https://goo.gl/T09jnC)
 * [StartCom Forums - "Heartbleed vulnerability - is StartCom affected?" (also WayBack Machine)](https://goo.gl/TQClPk)
 * [Mozilla bug #994033 - Most StartSSL certs will stay compromised (RESOLVED INVALID)](https://bugzilla.mozilla.org/show_bug.cgi?id=994033)
