@@ -57,7 +57,10 @@ certificates that cannot be removed, so instead they are distrusted.  You can
 verify this by clicking on each certificate and then clicking "Edit Trust".
 None of the three checkboxes should be checked.
 
-**Note to server operators who (still) use StartCom:**
+
+Note to server operators who (still) use StartCom
+-------------------------------------------------
+
 Now that [Let's Encrypt](https://letsencrypt.org/) is open to the public, there
 is absolutely *no excuse* to continue using StartCom.  Destroy your old private
 keys and switch over **now**.  If you're worried about how the client works, a
@@ -78,6 +81,7 @@ couple of notes:
    another machine.
  * If you're worried about 90-day lifetimes, they're working on making automated
    renewals easier.  In the meantime, set up a cron job.
+
 
 Resources
 ---------
