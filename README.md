@@ -12,9 +12,9 @@ Copyright (C) 2014-2015 Scott Zeid.  Released under the X11 License.
 
 This is an addon for Firefox and Firefox for Android that removes (or in the
 case of built-in certificates, distrusts) StartCom's certificate authorities
-from the certificate database.  (StartCom is the company that operates the
-"free" StartSSL certificate authority.)  This is necessary due to [their
-hostile attitude](https://raim.codingfarm.de/blog/2014/04/12/distrusting-startssl/)
+from the certificate database.  (StartCom is the company that operates a
+widely-known "free" StartSSL certificate authority.)  This is necessary due to
+[their hostile attitude](https://raim.codingfarm.de/blog/2014/04/12/distrusting-startssl/)
 towards customers affected by [the infamous Heartbleed bug](http://heartbleed.com):
 they require us to pay US$24.90 ***per certificate*** in order to have them
 revoked, blaming *us* for the fact that we may have been compromised, and not
