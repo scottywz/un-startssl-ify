@@ -74,6 +74,8 @@ couple of notes:
    serve *just* the ACME challenge directory from a separate web root.  The
    `certonly` part will also cause it to *only* get the certificate, so that you
    can install it manually.
+ * You can also [use HAProxy and the `--tls-sni-01-port` `letsencrypt` option
+   to do TLS SNI validation on a separate port from your normal HTTPS server](https://coolaj86.com/articles/lets-encrypt-with-haproxy/).
  * If you don't like giving the client root access, there are [plenty of other
    clients—and libraries for many programming languages—available](https://community.letsencrypt.org/t/list-of-client-implementations/2103).  Knock yourself out.
  * If you can't or don't want to generate certificates on the server itself,
