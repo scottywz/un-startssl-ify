@@ -82,7 +82,8 @@ couple of notes:
    (at least) the official client has a manual mode that lets you do it from
    another machine.
  * If you're worried about 90-day lifetimes, they're working on making automated
-   renewals easier.  In the meantime, set up a cron job.
+   renewals easier.  In the meantime, set up a cron job and pass the
+   `--renew-by-default` flag to `letsencrypt`.
 
 
 Resources
