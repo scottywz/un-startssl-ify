@@ -38,8 +38,7 @@ var STARTCOM_ORGS = ["StartCom Ltd."];
 
 function unStartSSLify() {
  var certDB = Cc["@mozilla.org/security/x509certdb;1"].getService(Ci.nsIX509CertDB);
- var certDB2 = Cc["@mozilla.org/security/x509certdb;1"].getService(Ci.nsIX509CertDB2);
- var certList = certDB2.getCerts();
+ var certList = certDB.getCerts();
  var startComCerts = [];
  
  for (var e = certList.getEnumerator(); e.hasMoreElements();) {
