@@ -6,7 +6,7 @@ FX_esc=$(subst ${apos},${apos}"${apos}"${apos},${FX})
 
 all: un-startssl-ify.xpi
 
-un-startssl-ify.xpi: *.js icon*.png package.json
+un-startssl-ify.xpi: *.js icon*.png package.json .jpmignore
 	rm -f jid1-LmWyqIiZsQfskA@jetpack*.xpi
 	${JPM} xpi
 	mv jid1-LmWyqIiZsQfskA@jetpack*.xpi $@

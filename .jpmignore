@@ -1,0 +1,10 @@
+*.swp
+
+*.xpi
+
+*.xcf
+Makefile
+
+.git
+.*ignore
+test
