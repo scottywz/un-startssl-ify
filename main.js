@@ -36,7 +36,7 @@ var {Cc, Ci} = require("chrome");
 
 var STARTCOM_ORGS = ["StartCom Ltd."];
 
-function unStartSSLify() {
+var unStartSSLify = exports.unStartSSLify = function unStartSSLify() {
  var certDB = Cc["@mozilla.org/security/x509certdb;1"].getService(Ci.nsIX509CertDB);
  var certList = certDB.getCerts();
  var startComCerts = [];
