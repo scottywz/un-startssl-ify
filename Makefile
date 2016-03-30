@@ -11,10 +11,13 @@ un-startssl-ify.xpi: *.js icon*.png package.json
 	${JPM} xpi
 	mv jid1-LmWyqIiZsQfskA@jetpack*.xpi $@
 
-.PHONY: run clean
+.PHONY: run test clean
 
 run:
 	${JPM} -b '${FX_esc}' run
+
+test:
+	${JPM} -b '${FX_esc}' test
 
 clean:
 	rm -f *.xpi
